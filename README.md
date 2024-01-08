@@ -11,19 +11,19 @@ Projenin kullanılabilmesi için Flutter'ın yüklü olması gerekmektedir. Flut
 ```bash
 git clone https://github.com/enderjua/qrscanner.git
 ```
-    Proje dizinine gidin:
+Proje dizinine gidin:
 
 ```bash
 
 cd qrscanner
 ```
-    Bağımlılıkları yükleyin:
+Bağımlılıkları yükleyin:
 
 ```bash
 
 flutter pub get
 ```
-    Uygulamayı çalıştırın:
+Uygulamayı çalıştırın:
 
 ```bash
 
@@ -48,7 +48,7 @@ Proje, aşağıdaki ana kütüphaneleri kullanmaktadır:
 Katkıda Bulunma
 
 Eğer projeye katkıda bulunmak istiyorsanız, lütfen bir çekme isteği oluşturun. Katkılarınızı bekliyoruz!
-Lisans
+
 
 Bu proje tamamen özgür yazılım prensiplerine uygun olarak geliştirilmiştir
 
