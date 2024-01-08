@@ -39,11 +39,81 @@ Ekran Görüntüleri
 Ekran görüntülerini screenshots klasöründe bulabilirsiniz.
 Kütüphaneler
 
+## Kütüphaneler
+
 Proje, aşağıdaki ana kütüphaneleri kullanmaktadır:
 
-    Hive: Hafif bir veritabanı paketi.
-    qr_code_scanner: QR kodu tarayıcı bileşeni.
-    permission_handler: İzinleri yöneten paket.
+- [Hive](https://pub.dev/packages/hive): Hafif bir veritabanı paketi.
+- [qr_code_scanner](https://pub.dev/packages/qr_code_scanner): QR kodu tarayıcı bileşeni.
+- [permission_handler](https://pub.dev/packages/permission_handler): İzinleri yöneten paket.
+
+## Katkıda Bulunma
+
+Eğer projeye katkıda bulunmak istiyorsanız, lütfen bir çekme isteği oluşturun. Katkılarınızı bekliyoruz!
+
+## Örnek Kod
+
+Projenin ana dosyasında yer alan kod bloğu:
+
+```dart
+// Projenin ana dosyasında yer alan kod bloğu
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:permission_handler/permission_handler.dart';
+import 'package:scannerqrcode/screens/homepage.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+
+void main() async {
+  await Hive.initFlutter();
+  Hive.registerAdapter(ScannerHistoryAdapter());
+
+  runApp(const MyApp());
+}
+
+// ... Diğer kodlar ...
+
+// Ana sayfa kodu
+class FirstPage extends StatefulWidget {
+  const FirstPage({super.key});
+
+  @override
+  State<FirstPage> createState() => _FirstPageState();
+}
+
+class _FirstPageState extends State<FirstPage> {
+  // ... Diğer kodlar ...
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      // ... Diğer widget'lar ...
+    );
+  }
+}
+
+// ... Diğer kodlar ...
+
+// QR kod tarayıcı sayfa kodu
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  // ... Diğer kodlar ...
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      // ... Diğer widget'lar ...
+    );
+  }
+}
+
+Bu örnekler, projedeki iki ana sayfa olan FirstPage ve HomePage widget'larını içermektedir. Bu widget'lar, uygulamanın başlangıç noktalarını ve QR kod tarayıcı sayfasını temsil etmektedir.
+```
 
 Katkıda Bulunma
 
