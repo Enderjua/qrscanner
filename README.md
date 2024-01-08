@@ -9,13 +9,13 @@ Projenin kullanılabilmesi için Flutter'ın yüklü olması gerekmektedir. Flut
 1. Repoyu bilgisayarınıza klonlayın:
 
 ```bash
-git clone https://github.com/kullaniciadi/projeadi.git
+git clone https://github.com/enderjua/qrscanner.git
 ```
     Proje dizinine gidin:
 
 ```bash
 
-cd projeadi
+cd qrscanner
 ```
     Bağımlılıkları yükleyin:
 
