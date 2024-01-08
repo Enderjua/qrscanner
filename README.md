@@ -10,25 +10,25 @@ Projenin kullanılabilmesi için Flutter'ın yüklü olması gerekmektedir. Flut
 
 ```bash
 git clone https://github.com/kullaniciadi/projeadi.git
-
+```
     Proje dizinine gidin:
 
-bash
+```bash
 
 cd projeadi
-
+```
     Bağımlılıkları yükleyin:
 
-bash
+```bash
 
 flutter pub get
-
+```
     Uygulamayı çalıştırın:
 
-bash
+```bash
 
 flutter run
-
+```
 Kullanım
 
 Uygulamayı başlattığınızda, kamera ve galeri izinlerini kontrol eder. Eğer izinler yoksa, kullanıcıya izinleri vermesi için bir uyarı gösterir. İzinler verildiğinde, ana sayfa görüntülenir.
@@ -50,8 +50,6 @@ Katkıda Bulunma
 Eğer projeye katkıda bulunmak istiyorsanız, lütfen bir çekme isteği oluşturun. Katkılarınızı bekliyoruz!
 Lisans
 
-Bu proje MIT lisansı ile lisanslanmıştır. Detaylı bilgi için lisans dosyasını inceleyebilirsiniz.
+Bu proje tamamen özgür yazılım prensiplerine uygun olarak geliştirilmiştir
 
-Bu proje tamamen özgür yazılım prensiplerine uygun olarak geliştirilmiştir ve MIT Lisansı ile dağıtılmaktadır.
-
-Bu markdown kodları, GitHub'da düzgün biçimlendirilmiş bir README dosyası oluşturmak için kullanılabilir.
+(description created with ai)
