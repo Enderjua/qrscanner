@@ -1,16 +1,57 @@
-# scannerqrcode
+# QR Kod Okuyucu
 
-Scanner QR Code
+Bu Flutter projesi, QR kodlarını tarayabilen bir mobil uygulamayı içermektedir. Ayrıca taranan QR kodları geçmişte saklanabilir ve görüntülenebilir.
 
-## Getting Started
+## Kurulum
 
-This project is a starting point for a Flutter application.
+Projenin kullanılabilmesi için Flutter'ın yüklü olması gerekmektedir. Flutter yüklü değilse [Flutter Kurulum Sayfası](https://flutter.dev/docs/get-started/install) adresinden kurulum adımlarını takip edebilirsiniz.
 
-A few resources to get you started if this is your first Flutter project:
+1. Repoyu bilgisayarınıza klonlayın:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/kullaniciadi/projeadi.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Proje dizinine gidin:
+
+bash
+
+cd projeadi
+
+    Bağımlılıkları yükleyin:
+
+bash
+
+flutter pub get
+
+    Uygulamayı çalıştırın:
+
+bash
+
+flutter run
+
+Kullanım
+
+Uygulamayı başlattığınızda, kamera ve galeri izinlerini kontrol eder. Eğer izinler yoksa, kullanıcıya izinleri vermesi için bir uyarı gösterir. İzinler verildiğinde, ana sayfa görüntülenir.
+
+Ana sayfada kullanıcı, kamerayı kullanarak QR kodları tarayabilir. Ayrıca, galeriden QR kodu okutmak şu anda mümkün değildir. Taranan QR kodları geçmişte saklanır ve geçmiş sayfasında görüntülenebilir.
+Ekran Görüntüleri
+
+Ekran görüntülerini screenshots klasöründe bulabilirsiniz.
+Kütüphaneler
+
+Proje, aşağıdaki ana kütüphaneleri kullanmaktadır:
+
+    Hive: Hafif bir veritabanı paketi.
+    qr_code_scanner: QR kodu tarayıcı bileşeni.
+    permission_handler: İzinleri yöneten paket.
+
+Katkıda Bulunma
+
+Eğer projeye katkıda bulunmak istiyorsanız, lütfen bir çekme isteği oluşturun. Katkılarınızı bekliyoruz!
+Lisans
+
+Bu proje MIT lisansı ile lisanslanmıştır. Detaylı bilgi için lisans dosyasını inceleyebilirsiniz.
+
+Bu proje tamamen özgür yazılım prensiplerine uygun olarak geliştirilmiştir ve MIT Lisansı ile dağıtılmaktadır.
+
+Bu markdown kodları, GitHub'da düzgün biçimlendirilmiş bir README dosyası oluşturmak için kullanılabilir.
